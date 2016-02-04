@@ -21,8 +21,10 @@ on init
     chmod 0775 /tmp
 
     write /sys/class/android_usb/android0/enable 0
-    write /sys/class/android_usb/android0/idVendor 18D1
-    write /sys/class/android_usb/android0/idProduct D001
+# Mod product begin
+    write /sys/class/android_usb/android0/idVendor 19d2
+    write /sys/class/android_usb/android0/idProduct 1352
+# Mod product end
     write /sys/class/android_usb/android0/functions adb
     write /sys/class/android_usb/android0/iManufacturer ${ro.product.manufacturer}
     write /sys/class/android_usb/android0/iProduct ${ro.product.model}
