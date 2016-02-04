@@ -21,7 +21,7 @@
 #include "screen_ui.h"
 
 static const char* HEADERS[] = { "Volume up/down to move highlight;",
-                                 "enter button to select.",
+                                 "power button to select.",
                                  "",
                                  NULL };
 
