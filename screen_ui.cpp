@@ -363,11 +363,6 @@ void ScreenRecoveryUI::Init()
     LoadBitmap("progress_empty", &progressBarEmpty);
     LoadBitmap("progress_fill", &progressBarFill);
 
-    LoadLocalizedBitmap("installing_text", &backgroundText[INSTALLING_UPDATE]);
-    LoadLocalizedBitmap("erasing_text", &backgroundText[ERASING]);
-    LoadLocalizedBitmap("no_command_text", &backgroundText[NO_COMMAND]);
-    LoadLocalizedBitmap("error_text", &backgroundText[ERROR]);
-
     int i;
 
     progressBarIndeterminate = (gr_surface*)malloc(indeterminate_frames *
